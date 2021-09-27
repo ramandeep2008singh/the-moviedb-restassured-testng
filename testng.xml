@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TMDBTestSuite">
+    <listeners>
+        <listener class-name="ExtentReporterNG"></listener>
+    </listeners>
+    <test name="RegressionTests">
+        <classes>
+            <class name="com.app.test.MovieListPositiveTests"/>
+            <class name="com.app.test.MovieListNegitiveTests"/>
+            <class name="com.app.test.TestBase"/>
+        </classes>
+    </test>
+</suite>

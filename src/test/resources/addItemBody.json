@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "media_type": "movie",
+      "media_id": 550
+    },
+    {
+      "media_type": "movie",
+      "media_id": 244786
+    },
+    {
+      "media_type": "tv",
+      "media_id": 1396
+    }
+  ]
+}

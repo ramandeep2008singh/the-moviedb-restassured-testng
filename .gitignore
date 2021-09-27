@@ -1,0 +1,16 @@
+
+.settings
+.project
+.classpath
+.gitflow
+/target
+/test-output
+/testng.out.xml
+*.iml
+**/.DS_Store
+.DS_Store
+/bin
+.gitflow*
+.idea
+/lib
+/allure-results
