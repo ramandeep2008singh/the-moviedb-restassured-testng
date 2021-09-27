@@ -118,7 +118,7 @@ public class MovieListPositiveTests extends TestBase {
         Request request = new Request.Builder()
                 .url(ApiConstants.BASE_URL + "/list/" + createdID + ApiConstants.API_KEY)
                 .method("PUT", body)
-                .addHeader("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE2MzI1NDc1NzcsInN1YiI6IjYxNGEwNGQxOWE5ZTIwMDA0MzNhNjNmOCIsImp0aSI6IjM1NDkyNTgiLCJzY29wZXMiOlsiYXBpX3JlYWQiLCJhcGlfd3JpdGUiXSwidmVyc2lvbiI6MSwiYXVkIjoiZDYyNWRiMmRlNTQzNDExYTcwMGZjNmI2MDBkNzY0MTEifQ.OQBqtJIh7EjgWRjH68SZnB2X6lc0QoKFK85SAz_qtec")
+                .addHeader("Authorization", "Bearer " + ApiConstants.ACCESS_BEARER_TOKEN)
                 .addHeader("Content-Type", "application/json")
                 .build();
         okhttp3.Response response = client.newCall(request).execute();
